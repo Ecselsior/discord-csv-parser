@@ -1,4 +1,5 @@
 !!! THIS PROJECT IS GENERATED WITH AI !!!
+<img width="1004" height="1107" alt="image" src="https://github.com/user-attachments/assets/ed576b8f-83dc-4f80-bbd9-6add159f208a" />
 
 Discord CSV Parser
 
