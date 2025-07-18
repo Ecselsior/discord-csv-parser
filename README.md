@@ -78,53 +78,6 @@ Usage
    * Choose a save location and filename.
    * Optionally, check "Compress output to a .zip file" to save the exported file as a zip archive.
 
-4. View Analytics:
-   * The "Analytics Dashboard" on the right will update with summaries based on your loaded and filtered data.
-   * The "Message Frequency" graph in the "Date & Time" tab will visualize message activity.
-
-Project Structure
-
-discord_parser/
-├── .gitignore
-├── launch.bat             # Script to activate venv and run the app
-├── setup.bat              # Script to setup venv and install dependencies
-├── .venv/                 # Python Virtual Environment (ignored by Git)
-├── discord_parser/
-│   ├── bad_words.txt      # Default list for content snipping
-│   ├── gui.py             # Main GUI application logic (older version, now main_window.py)
-│   ├── main.py            # Entry point for the application
-│   ├── lists/             # Directory for various bad word lists
-│   │   ├── bad_words.txt
-│   │   ├── bad_words_least.txt
-│   │   ├── bad_words_mild.txt
-│   │   ├── bad_words_moderate.txt
-│   │   └── bad_words_severe.txt
-│   ├── logic/
-│   │   ├── analytics_handler.py # Handles data summarization for analytics
-│   │   ├── data_processor.py    # Core logic for data filtering and export
-│   │   ├── file_handler.py      # Handles CSV loading and initial data analysis
-│   │   └── graph_handler.py     # Generates matplotlib graphs
-│   ├── ui/
-│   │   ├── config_tabs.py       # Manages the various configuration tabs (Authors, Date, Content, Attachments)
-│   │   ├── file_pane.py         # Handles file loading, details display, and export controls
-│   │   ├── main_window.py       # The main application window and overall UI orchestration
-│   │   └── preview_pane.py      # Displays analytics summaries
-│   └── utils/
-│       ├── logger_setup.py      # Configures application logging
-│       └── timing.py            # Utility for timing operations
-└── discord_parser_bundle/ # Potentially for bundled executables (not part of source control)
-
-Contributing
-
-Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please feel free to:
-
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/your-feature-name).
-3. Make your changes.
-4. Commit your changes (git commit -m 'Add new feature').
-5. Push to the branch (git push origin feature/your-feature-name).
-6. Open a Pull Request.
-
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details (if applicable, otherwise state "No specific license applied yet").
