@@ -4,16 +4,6 @@ Discord CSV Parser
 
 A desktop application built with Python and Tkinter for parsing, analyzing, and exporting data from Discord CSV message exports. This tool helps users gain insights into their Discord conversations, filter messages, and visualize activity over time.
 
-Table of Contents
-
-* Features
-* Prerequisites
-* Setup and Installation
-* Usage
-* Project Structure
-* Contributing
-* License
-
 Features
 
 * CSV File Loading & Analysis:
